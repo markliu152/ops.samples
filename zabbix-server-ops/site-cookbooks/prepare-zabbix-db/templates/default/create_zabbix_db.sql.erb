@@ -1,0 +1,9 @@
+
+drop database if exists zabbix;
+
+create database zabbix ;
+
+grant all privileges on zabbix.* to 'zabbix'@'localhost' ;
+grant all privileges on zabbix.* to 'zabbix'@'%' ;
+flush privileges ;
+
